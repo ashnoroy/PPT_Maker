@@ -110,7 +110,7 @@ if all(all_API):
   leader_agent = create_agent(
       model=model,
       tools=[
-          search_latest_info,
+          search_latest_info]
           # generate_image])
 
   #leader_agent
